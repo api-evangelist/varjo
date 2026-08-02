@@ -1,9 +1,27 @@
 aid: varjo
 name: Varjo
-description: 'Varjo is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: virtual-reality. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Varjo is a Helsinki-based maker of high-fidelity virtual and mixed reality
+  headsets for professional training and simulation across air, land, and sea.
+  Its platform centers on the XR-4 Series headsets and the Varjo Base companion
+  software, with a developer surface built around a native C SDK (rendering,
+  foveated rendering, mixed reality, eye and hand tracking, DataStream API),
+  the Varjo XR Plugin for Unity, an OpenXR plugin for Unreal Engine, and WebXR
+  support. Varjo ships its own Khronos OpenXR runtime and is a contributing
+  member of the OpenXR working group.
 url: https://raw.githubusercontent.com/api-evangelist/varjo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://25667574.fs1.hubspotusercontent-eu1.net/hubfs/25667574/favicon_48_light-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,11 +29,22 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Virtual Reality
+- Mixed Reality
+- Extended Reality
+- Headsets
+- Training and Simulation
+- Eye Tracking
+- OpenXR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,39 @@ maintainers:
 common:
 - type: Website
   url: https://varjo.com/
+- type: DeveloperPortal
+  url: https://developer.varjo.com/
+- type: Documentation
+  url: https://developer.varjo.com/
+- type: APIReference
+  url: https://developer.varjo.com/docs/apidocs/apidocs
+- type: GettingStarted
+  url: https://developer.varjo.com/docs/get-started/get-started
+- type: Support
+  url: https://developer.varjo.com/support.html
+- type: HelpCenter
+  url: https://support.varjo.com/hc/en-us
+- type: Blog
+  url: https://varjo.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/varjocom
+- type: TermsOfService
+  url: https://varjo.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://varjo.com/privacy-policy/
+- type: Login
+  url: https://account.varjo.com/
+- type: LLMsTxt
+  url: llms/varjo-llms.txt
+- type: Packages
+  url: packages/varjo-packages.yml
+- type: SDKs
+  url: packages/varjo-packages.yml
+- type: ChangeLog
+  url: changelog/varjo-changelog.yml
+- type: Lifecycle
+  url: lifecycle/varjo-lifecycle.yml
+- type: Conformance
+  url: conformance/varjo-conformance.yml
+- type: DomainSecurity
+  url: security/varjo-domain-security.yml

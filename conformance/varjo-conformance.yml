@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.varjo.com/docs/openxr/overview
+notes: >-
+  Varjo's developer surface is a native XR device platform (C API + engine
+  plugins), not a web API, so web-API standards (OAuth2, OIDC, JSON:API,
+  RFC 9457, SCIM, FHIR, PSD2) do not apply. Standards conformance centers on
+  the Khronos OpenXR runtime and W3C WebXR support.
+standards:
+- id: openxr
+  conforms: true
+  evidence: >-
+    Varjo Base installs the Varjo OpenXR Runtime; docs state "Varjo headsets
+    fully support OpenXR and can run your OpenXR applications" and that Varjo
+    is an active contributing member of the Khronos OpenXR working group
+    (https://developer.varjo.com/docs/openxr/overview).
+- id: webxr
+  conforms: true
+  evidence: >-
+    Dedicated WebXR section on developer.varjo.com documents browser-based XR
+    development against Varjo headsets (https://developer.varjo.com/).
+- id: oauth2
+  conforms: false
+  evidence: No public web API or OAuth surface; no /.well-known/openid-configuration or oauth-authorization-server on varjo.com or developer.varjo.com (probed 404, 2026-07-21).

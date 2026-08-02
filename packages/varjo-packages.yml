@@ -1,0 +1,50 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.varjo.com/downloads + https://github.com/varjocom + registry probes
+notes: >-
+  Varjo ships native and engine-plugin SDKs for its XR headsets rather than web-API
+  client libraries. No first-party packages exist on npm, PyPI, NuGet, RubyGems,
+  Packagist, crates.io, or OpenUPM (all probed 2026-07-21; the only hits are
+  third-party: Silk.NET.OpenXR.Extensions.VARJO bindings on NuGet). Official SDKs
+  are distributed from developer.varjo.com/downloads, GitHub (varjocom), and the
+  Unreal Fab marketplace.
+packages:
+- language: c
+  registry: vendor-download
+  name: Varjo Native SDK
+  url: https://developer.varjo.com/downloads
+  docs: https://developer.varjo.com/docs/native/introduction-to-varjo-sdk
+  version: 4.15.0
+  official: true
+  notes: Native C API for custom engines — rendering, foveated rendering, mixed reality, eye/hand tracking, DataStream API, spatial audio, video post-processing.
+- language: csharp
+  registry: github
+  name: Varjo XR Plugin for Unity (com.varjo.xr)
+  url: https://github.com/varjocom/VarjoUnityXRPlugin
+  docs: https://developer.varjo.com/docs/unity-xr-sdk/getting-started-with-varjo-xr-plugin-for-unity
+  version: 3.7.3
+  official: true
+  notes: Unity XR SDK plugin providing display, input, and mixed reality support; installed as a Unity package from GitHub.
+- language: cpp
+  registry: fab
+  name: Varjo OpenXR Plugin for Unreal Engine
+  url: https://developer.varjo.com/downloads
+  docs: https://developer.varjo.com/docs/unreal/ue5/unreal5-getting-started
+  version: 1.2.7 (UE 5.7)
+  official: true
+  notes: Available from the Fab marketplace or manual download; versions per Unreal Engine release (UE 4.26 through 5.7).
+- language: csharp
+  registry: github
+  name: XR3-VR3 Ultraleap SDK for Unity
+  url: https://github.com/varjocom/XR3-VR3-UnityModules
+  official: true
+- language: cpp
+  registry: github
+  name: XR3-VR3 Leap Motion SDK for Unreal Engine
+  url: https://github.com/varjocom/XR3-VR3-LeapUnreal
+  official: true
+registries_probed:
+- npm (no first-party results)
+- pypi (404)
+- nuget (third-party Silk.NET bindings only)
+- openupm (com.varjo.xr not published, 404)

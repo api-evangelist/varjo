@@ -1,0 +1,53 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.varjo.com/downloads + https://github.com/varjocom/VarjoUnityXRPlugin/blob/master/CHANGELOG.md
+docs: https://varjo.com/downloads/release-notes/varjo-base/
+scheme: semver per product train (Varjo Base / Native SDK share the 4.x train; Unity and Unreal plugins version independently and declare a minimum compatible Varjo Base)
+current:
+  native_sdk: 4.15.0
+  unity_xr_plugin: 3.7.3
+  unreal_openxr_plugin: 1.2.7 (UE 5.7)
+  lab_tools: 1.5.7
+notes: >-
+  Varjo Base downloads and dated release notes live in the Varjo Account Portal
+  (https://account.varjo.com/downloads) with public release notes at
+  varjo.com/downloads/release-notes/varjo-base/. The Unity plugin keeps a
+  Keep-a-Changelog style CHANGELOG.md on GitHub. The developer downloads page
+  retains every Native SDK version back to 2.1.0.
+entries:
+- version: unity-xr-plugin 3.7.3
+  source: https://github.com/varjocom/VarjoUnityXRPlugin/blob/master/CHANGELOG.md
+  breaking: false
+  highlights:
+  - Changed GetCameraIntrinsics to support rational camera model intrinsics
+  - Compatible with Varjo Base 4.6 or newer
+- version: unity-xr-plugin 3.7.2
+  source: https://github.com/varjocom/VarjoUnityXRPlugin/blob/master/CHANGELOG.md
+  breaking: false
+  highlights:
+  - Support for changing Focus Distance property via VarjoCameraPropertyType.FocusDistance
+  - Compatible with Varjo Base 4.5 or newer
+- version: unity-xr-plugin 3.7.0
+  source: https://github.com/varjocom/VarjoUnityXRPlugin/blob/master/CHANGELOG.md
+  breaking: false
+  highlights:
+  - Preliminary support for Unity 6.0 or newer
+  - Upgraded com.unity.xr.arfoundation dependency to 5.1.3
+- version: unity-xr-plugin 3.6.0
+  source: https://github.com/varjocom/VarjoUnityXRPlugin/blob/master/CHANGELOG.md
+  breaking: false
+  highlights:
+  - Support for Varjo Controllers and the XR-4 headset
+  - Oldest supported Unity LTS moved to 2021.3
+- version: unreal-openxr-plugin 1.2.7 (UE 5.7)
+  date: '2025-12-19'
+  source: https://developer.varjo.com/downloads
+  breaking: false
+  highlights:
+  - Release for Unreal Engine 5.7 (1.2.6 released same day for UE 5.6)
+- version: unreal-openxr-plugin 1.2.5 (UE 5.5)
+  date: '2025-01-24'
+  source: https://developer.varjo.com/downloads
+  breaking: false
+  highlights:
+  - Release for Unreal Engine 5.5

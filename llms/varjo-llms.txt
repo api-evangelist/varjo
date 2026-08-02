@@ -1,0 +1,43 @@
+# Varjo - Mission-ready XR for training and simulation 
+
+> Varjo builds high-fidelity VR and mixed reality headsets, software, integrations, and professional services for scalable training across air, land, and sea. 
+
+([varjo.com](https://varjo.com/)) Varjo’s offering centers on the XR-4 Series, supported by Varjo Base software, broad software compatibility, and deployment-focused services for secure, mission-critical simulation.
+
+## Key Content Links
+
+### Products and Platforms
+
+* [Products overview](https://varjo.com/products): Overview of Varjo’s current headsets and platform components for professional training and simulation.
+* [XR-4 Series](https://varjo.com/products/xr-4): Flagship mixed reality headsets engineered for mission-critical training and simulation deployments.
+* [XR-4 Secure Edition](https://varjo.com/products/xr-4-secure-edition): TAA-compliant variant assembled in Finland for secure and air-gapped environments.
+* [Varjo Base](https://varjo.com/products/varjo-base): Companion software for configuration, tracking, diagnostics, and device management.
+* [Professional Services (Varjo Alpha)](https://varjo.com/products/professional-services): Enterprise services for planning, integration, rollout, and ongoing optimization.
+
+
+### Use Cases, articles and resources
+
+* [Use cases overview](https://varjo.com/use-cases): Entry point to Varjo training and simulation use cases across multiple operational domains.
+* [Resources overview](https://varjo.com/resources): Entry point to Varjo articles, webinars, e-books, whitepapers about VR/XR.
+
+
+### Support and Developer Resources
+
+* [Help Center](https://support.varjo.com/hc/en-us): Support hub for setup, troubleshooting, and operational guidance.
+* [Developer portal](https://developer.varjo.com/): Developer home for documentation, SDKs, and platform capabilities.
+
+
+### Sales and Company
+
+* [Sales contact](https://varjo.com/talk-to-sales): Primary sales contact path for demos, procurement, and deployment discussions.
+* [Contact us](https://varjo.com/contact-us): General contact form for inquiries that do not fit sales or support channels.
+* [Company](https://varjo.com/company): Company overview, mission, and positioning for training and simulation markets.
+
+
+### Teleport by Varjo
+
+* [Teleport overview](https://teleport.varjo.com/): Teleport product overview for creating and sharing photorealistic 3D environments.
+* [Teleport product platform](https://teleport.varjo.com/products/overview): Platform overview for capture, processing, and delivery of spatial data outputs.
+
+
+## Last Updated February 18, 2026

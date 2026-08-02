@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://varjo.com and https://developer.varjo.com
+notes: >-
+  No /.well-known/ discovery surface is published on either host (all probes 404).
+  Varjo does publish an llms.txt at the site root (https://varjo.com/llms.txt, 200),
+  captured verbatim at llms/varjo-llms.txt.
+hosts:
+- host: https://varjo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://developer.varjo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

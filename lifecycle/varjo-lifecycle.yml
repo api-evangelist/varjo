@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.varjo.com/downloads + https://developer.varjo.com/docs/openxr/overview
+versioning:
+  scheme: semver per product train
+  current: Native SDK 4.15.0 (Varjo Base 4.x train)
+  docs: https://developer.varjo.com/downloads
+  notes: >-
+    The Native SDK and Varjo Base software version together on the 4.x train
+    (all versions back to 2.1.0 remain downloadable). The Unity XR plugin
+    (3.7.x) and Unreal OpenXR plugin (1.2.x, one build per UE release)
+    version independently and each declares a minimum compatible Varjo Base
+    version.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation policy found; older SDK and plugin versions stay available on the downloads page.
+sla:
+  url: null
+status_page: null
+release_notes:
+  varjo_base: https://varjo.com/downloads/release-notes/varjo-base/
+  lab_tools: https://developer.varjo.com/lab-tools#release-notes
+  unity_plugin: https://github.com/varjocom/VarjoUnityXRPlugin/blob/master/CHANGELOG.md
+deprecated_operations: []
